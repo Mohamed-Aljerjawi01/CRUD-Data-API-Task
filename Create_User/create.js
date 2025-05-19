@@ -77,6 +77,7 @@ addUserForm.onsubmit = async function(e){ // e => even
     const user= {
         userName: e.target.userName.value,
         email: e.target.email.value,
+        password: e.target.password.value,
         phone: e.target.phone.value
     }
     // console.log(user);
